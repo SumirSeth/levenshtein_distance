@@ -1,8 +1,8 @@
 use std::io;
 
 fn main() {
-    let mut word_a = get_input("Enter first word: ");
-    let mut word_b = get_input("Enter second word: ");
+    let mut word_a = get_input("First word: ");
+    let mut word_b = get_input("Second word: ");
 
     word_a = word_a.to_lowercase();
     word_b = word_b.to_lowercase();
